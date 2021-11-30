@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Setsail clone">
+    <meta name="keywords" content="Setsail clone, Setsail github, Setsail thongthai">
+    <meta name="author" content="Thong Thai">
+        <meta property="og:url" content="https://setsail.qodeinteractive.com/winter-holidays/">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="Winter Holidays">
+        <meta property="og:description" content="Travel Agency Theme">
+        <meta property="og:image" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=yes">
+    <link rel="stylesheet" href="./assets/main.css">
+    <link rel="stylesheet" href="./assets/base.css">
+    <link rel="stylesheet" href="./assets/responsive.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <title>Setsail</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+    </style>
+</head>
+<body>
+    <div id="main">
+        <!-- header -->
+        <div class="gird">
+            <div class="grid-row header">
+                <!-- logo -->
+                <div class="header__logo-container">
+                    <a href="/" class="header__logo-container-link">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/logo.png" alt="logo" class="header__logo-img">
+                    </a>
+                </div>
+                <!-- navigation-link -->
+                <div class="header-nav-container">
+                    <div class="nav-heading nav-heading__home current-page">Home
+                        <div class="nav-heading__home-item-wrap ">
+                            <div class="nav-heading__item nav-heading__home-item__travel-agency">Travel Agency</div>
+                            <div class="nav-heading__item nav-heading__home-item__winter-holidays">Winter Holidays</div>
+                            <div class="nav-heading__item nav-heading__home-item__exotic-destinations">Exotic Destinations</div>
+                            <div class="nav-heading__item nav-heading__home-item__summer-holidays">Summer Holidays</div>
+                            <div class="nav-heading__item nav-heading__home-item__city-tours">City Tours</div>
+                            <div class="nav-heading__item nav-heading__home-item__new-year-trips">New Year Trips</div>
+                            <div class="nav-heading__item nav-heading__home-item__destinations-carousel">Destinations Carousel</div>
+                            <div class="nav-heading__item nav-heading__home-item__wine-tours">Wine Tours</div>
+                            <div class="nav-heading__item nav-heading__home-item__vacation-showcase">Vacation Showcase</div>
+                            <div class="nav-heading__item nav-heading__home-item__Landing">Landing</div>
+                        </div>
+                    </div>
+                    <div class="nav-heading nav-heading__pages-heading">Pages
+                        <div class="nav-heading__pages-item-wrap ">
+                            <div class="nav-heading__item">About Us</div>
+                            <div class="nav-heading__item">What We Offer</div>
+                            <div class="nav-heading__item">Our Team</div>
+                            <div class="nav-heading__item">Get In Touch</div>
+                            <div class="nav-heading__item">Contact Us</div>
+                            <div class="nav-heading__item">FAQ Page</div>
+                            <div class="nav-heading__item">Coming Soon</div>
+                            <div class="nav-heading__item">Error Page</div>
+                        </div>
+                    </div>
+                    <div class="nav-heading nav-heading__destinations">Destinations
+                        <div class="nav-heading__destinations-item-wrap ">
+                            <div class="nav-heading__item">Destinations List</div>
+                            <div class="nav-heading__item">Destinations Slider</div>
+                            <div class="nav-heading__item">Destinations Item</div>
+                        </div>
+                    </div>
+                    <div class="nav-heading nav-heading__tours">Tours
+                        <div class="nav-heading__tours-item-wrap ">
+                            <div class="nav-heading__item">Standard List</div>
+                            <div class="nav-heading__item">Gallery Slider</div>
+                            <div class="nav-heading__item">Split Item</div>
+                            <div class="nav-heading__item">Tour Item</div>
+                        </div>
+                    </div>
+                    <div class="nav-heading nav-heading__blog">Blog
+                        <div class="nav-heading__blog-item-wrap ">
+                            <div class="nav-heading__item">Blog Mansory</div>
+                            <div class="nav-heading__item">Blog Standard</div>
+                            <div class="nav-heading__item">Post Types</div>
+                        </div>
+                    </div>
+                    <div class="nav-heading nav-heading__shop">Shop
+                        <div class="nav-heading__blog-item-wrap ">
+                            <div class="nav-heading__item">Product List</div>
+                            <div class="nav-heading__item">Product Single</div>
+                            <div class="nav-heading__item">Shop Layouts</div>
+                            <div class="nav-heading__item">Shop Pages</div>
+                        </div>
+                    </div>
+                    <div class="nav-heading nav-heading__elements">Elements
+                    </div>
+                    <div class="line-current-tab"></div>
+                </div>
+                <!-- navigation icon right -->
+                <div class="nav-position-right-container">
+                    <div class="nav-position-right__cart-wrap">
+                        <i class='nav-position-right__icon bx bx-shopping-bag'></i>
+                        <div class="cart-select">
+                            <span class="cart-select__no-product-text">No products in the cart </span>
+                        </div>
+                    </div>
+                    <div class="nav-position-right__search-wrap">
+                        <i class='nav-position-right__icon bx bx-search bx-rotate-90'></i>
+                        <div class="onclick-icon-search-wrap overlay">
+                            <form class="onclick-icon-search">
+                                <input type="text" id="" name="" placeholder="Search..." class="search-input"></input>
+                                <button type="submit" value="submit" name="searchButton" id="search-button"  class="search-button">FIND NOW</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="nav-position-right__menu-wrap">
+                        <i class='nav-position-right__icon bx bx-menu-alt-left bx-rotate-180' ></i>
+                        <div class="navbar_right">
+                            <div class="navbar_right-exit-wrap"><i class='navbar_right-exit bx bx-x' ></i></div>
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/logo-sidearea.png" alt="Logo Setsail" class="navbar_right-logo">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/sidearea-img-2.png" alt="Hello" class="navbar_right-sayhi">
+                            <a href="/"><img width="385" height="237" src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/sidearea-img.jpg" class="navbar_right-map" alt="f" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/sidearea-img.jpg 385w, https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/sidearea-img-300x185.jpg 300w" sizes="(max-width: 385px) 100vw, 385px"></a>
+                            <p class="navbar_right-paragraph">Lorem ipsum dolor sit amet, consectetuer adipis cing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis theme natoque</p>
+                            <h3 class="navbar_right-label">Find Your Destination</h3>
+                            <div>
+                                <input type="text" class="navbar-right__input" placeholder="Search..." >
+                                <button type="submit" class="navbar-right__btn"><i class='navbar_right-icon-search bx bx-search'></i></button>
+                            </div>
+                            <h3 class="navbar_right-label">Follow Me</h3>
+                            <ul class="navbar_right-social-icon">
+                                <li class="navbar_right-social-icon-item"><a href="/"><i class='social-icon bx bxl-twitter' ></i></a></li>
+                                <li class="navbar_right-social-icon-item"><a href="/"><i class='social-icon bx bxl-pinterest-alt'></i></a></li>
+                                <li class="navbar_right-social-icon-item"><a href="/"><i class='social-icon bx bxl-facebook-circle' ></i></a></li>
+                                <li class="navbar_right-social-icon-item"><a href="/"><i class='social-icon bx bxl-instagram' ></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-heading__elements-item-wrap">
+                <div class="nav-heading__elements-item">
+                    <div class="nav-heading__item nav-heading__element-title">
+                        <span>FEATURED</span>
+                        <ul class="nav-heading__element-title-link-wrap">
+                            <li class="nav-heading__element-title-link-item m-top-12">Tour List</li>
+                            <li class="nav-heading__element-title-link-item">Tour Carousel</li>
+                            <li class="nav-heading__element-title-link-item">Tour Fitter</li>
+                            <li class="nav-heading__element-title-link-item">Destination With Tours</li>
+                            <li class="nav-heading__element-title-link-item">Destination List</li>
+                            <li class="nav-heading__element-title-link-item">Destination Fullscreen Slider</li>
+                            <li class="nav-heading__element-title-link-item">Fullscreen Sections </li>
+                            <li class="nav-heading__element-title-link-item">Reviews Carousel</li>
+                        </ul>
+                    </div>
+                    <div class="nav-heading__item nav-heading__element-title">
+                        <span>PRESENTATION</span>
+                        <ul class="nav-heading__element-title-link-wrap">
+                            <li class="nav-heading__element-title-link-item m-top-12">Tour List</li>
+                            <li class="nav-heading__element-title-link-item">Tour Carousel</li>
+                            <li class="nav-heading__element-title-link-item">Tour Fitter</li>
+                            <li class="nav-heading__element-title-link-item">Destination With Tours</li>
+                            <li class="nav-heading__element-title-link-item">Destination List</li>
+                            <li class="nav-heading__element-title-link-item">Destination Fullscreen Slider</li>
+                            <li class="nav-heading__element-title-link-item">Fullscreen Sections </li>
+                            <li class="nav-heading__element-title-link-item">Reviews Carousel</li>
+                        </ul>
+                    </div>
+                    <div class="nav-heading__item nav-heading__element-title">
+                        <span>CLASSIC</span>
+                        <ul class="nav-heading__element-title-link-wrap">
+                            <li class="nav-heading__element-title-link-item m-top-12">Tour List</li>
+                            <li class="nav-heading__element-title-link-item">Tour Carousel</li>
+                            <li class="nav-heading__element-title-link-item">Tour Fitter</li>
+                            <li class="nav-heading__element-title-link-item">Destination With Tours</li>
+                            <li class="nav-heading__element-title-link-item">Destination List</li>
+                            <li class="nav-heading__element-title-link-item">Destination Fullscreen Slider</li>
+                            <li class="nav-heading__element-title-link-item">Fullscreen Sections </li>
+                            <li class="nav-heading__element-title-link-item">Reviews Carousel</li>
+                        </ul>
+                    </div>
+                    <div class="nav-heading__item nav-heading__element-title">
+                        <span>TYPOGRAPHY</span>
+                        <ul class="nav-heading__element-title-link-wrap">
+                            <li class="nav-heading__element-title-link-item m-top-12">Tour List</li>
+                            <li class="nav-heading__element-title-link-item">Tour Carousel</li>
+                            <li class="nav-heading__element-title-link-item">Tour Fitter</li>
+                            <li class="nav-heading__element-title-link-item">Destination With Tours</li>
+                            <li class="nav-heading__element-title-link-item">Destination List</li>
+                            <li class="nav-heading__element-title-link-item">Destination Fullscreen Slider</li>
+                            <li class="nav-heading__element-title-link-item">Fullscreen Sections </li>
+                            <li class="nav-heading__element-title-link-item">Reviews Carousel</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- slider container -->
+            <div class="header_slider">
+                <!-- slider 1 -->
+                <div class="header_slider__background active animation-opacity">
+                    <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/skiing-slider-img-1.jpg" alt="Background slider" class="header_slider__background-img zoom">
+                    <div class="grid-row slider__content-container">
+                        <div class="grid-3 header_slider-arrow-left-wrap">
+                            <div class="header_slider-arrow-left">
+                                <i class='header_slider-arrow-left-icon bx bx-chevron-left bx-fade-left'></i>
+                            </div>
+                        </div>
+                        <div class="grid-3 header_slider__content-wrap">
+                            <h3 class="header_slider__content">From Alps</h3>
+                            <h2 class="header_slider__heading">Snow Adventure</h2>
+                            <span class="header_slider__sub-heading">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme</span>
+                        </div>
+                        <div class="grid-3 header_slider-arrow-right-wrap">
+                            <div class="header_slider-arrow-right">
+                                <i class='header_slider-arrow-right-icon bx bx-chevron-right bx-fade-right'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <!-- slider 2 -->
+                <div class="header_slider__background-2 animation-opacity">
+                    <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/skiing-slider-img-2.jpg" alt="Background slider" class="header_slider__background-img zoom">
+                    <div class="grid-row slider__content-container">
+                        <div class="grid-3 header_slider-arrow-left-wrap">
+                            <div class="header_slider-arrow-left">
+                                <i class='header_slider-arrow-left-icon bx bx-chevron-left bx-fade-left'></i>
+                            </div>
+                        </div>
+                        <div class="grid-3 header_slider__content-wrap">
+                            <h3 class="header_slider__content">Enjoy your</h3>
+                            <h2 class="header_slider__heading">Winter Vacations</h2>
+                            <span class="header_slider__sub-heading">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme</span>
+                        </div>
+                        <div class="grid-3 header_slider-arrow-right-wrap">
+                            <div class="header_slider-arrow-right">
+                                <i class='header_slider-arrow-right-icon bx bx-chevron-right bx-fade-right'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Tour item -->
+            <div class="grid-row container-tour-item">
+                <div class="grid-5 tour-item">
+                    <div class="tour__img">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/tour-featured-img-14.jpg" alt="Action Winter">
+                    </div>
+                    <div class="tour__inner-img-text">
+                        <div class="tour__inner-img-text--calendar">
+                            <i class='tour__inner-img-text--calendar-icon bx bx-calendar-alt'></i>
+                            <span class='tour__inner-img-text--calendar-text'>1</span>
+                        </div>
+                        <div class="tour__inner-img-text--user">
+                            <i class='tour__inner-img-text--user-icon bx bx-user' ></i>
+                            <span class='tour__inner-img-text--user-text'>13+</span>
+                        </div>
+                        <div class="tour__inner-img-text--location">
+                            <i class='tour__inner-img-text--location-icon bx bx-map' ></i>
+                            <span class='tour__inner-img-text--location-text'>Skiing</span>
+                        </div>
+                    </div>
+                    <div class="tour-item__content">
+                        <h3 class="tour-item__content-title">Winter Action</h3>
+                        <p class="tour-item__content-sub-title">Lorem ipsum dolor sit amet consectetur adipisicing el...</p>
+                        <div class="tour-item__content-rating">
+                            <span class="tour-item__content-price">$1000</span>
+                            <div class="tour-item__content-rating-point">
+                                <i class='rating-point bx bxs-star' ></i>
+                                <span class="rating-point">6.7</span>
+                                <span class="rating-point">Good</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-5 tour-item">
+                    <div class="tour__img">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/tour-featured-img-16.jpg" alt="Magic Of Italy">
+                    </div>
+                    <div class="tour__inner-img-text">
+                        <div class="tour__inner-img-text--calendar">
+                            <i class='tour__inner-img-text--calendar-icon bx bx-calendar-alt'></i>
+                            <span class='tour__inner-img-text--calendar-text'>1</span>
+                        </div>
+                        <div class="tour__inner-img-text--user">
+                            <i class='tour__inner-img-text--user-icon bx bx-user' ></i>
+                            <span class='tour__inner-img-text--user-text'>13+</span>
+                        </div>
+                        <div class="tour__inner-img-text--location">
+                            <i class='tour__inner-img-text--location-icon bx bx-map' ></i>
+                            <span class='tour__inner-img-text--location-text'>Skiing</span>
+                        </div>
+                    </div>
+                    <div class="tour-item__content">
+                        <h3 class="tour-item__content-title">Magic Of Italy</h3>
+                        <p class="tour-item__content-sub-title">Lorem ipsum dolor sit amet consectetur adipisicing el...</p>
+                        <div class="tour-item__content-rating">
+                            <span class="tour-item__content-price">$1000</span>
+                            <div class="tour-item__content-rating-point">
+                                <i class='rating-point bx bxs-star' ></i>
+                                <span class="rating-point">6.7</span>
+                                <span class="rating-point">Good</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-5 tour-item">
+                    <div class="tour__img">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/tour-featured-img-17.jpg" alt="Skingg In Apls">
+                    </div>
+                    <div class="tour__inner-img-text">
+                        <div class="tour__inner-img-text--calendar">
+                            <i class='tour__inner-img-text--calendar-icon bx bx-calendar-alt'></i>
+                            <span class='tour__inner-img-text--calendar-text'>1</span>
+                        </div>
+                        <div class="tour__inner-img-text--user">
+                            <i class='tour__inner-img-text--user-icon bx bx-user' ></i>
+                            <span class='tour__inner-img-text--user-text'>13+</span>
+                        </div>
+                        <div class="tour__inner-img-text--location">
+                            <i class='tour__inner-img-text--location-icon bx bx-map' ></i>
+                            <span class='tour__inner-img-text--location-text'>Skiing</span>
+                        </div>
+                    </div>
+                    <div class="tour-item__content">
+                        <h3 class="tour-item__content-title">Skingg In Apls</h3>
+                        <p class="tour-item__content-sub-title">Lorem ipsum dolor sit amet consectetur adipisicing el...</p>
+                        <div class="tour-item__content-rating">
+                            <span class="tour-item__content-price">$720</span>
+                            <div class="tour-item__content-rating-point">
+                                <i class='rating-point bx bxs-star' ></i>
+                                <span class="rating-point">7.3</span>
+                                <span class="rating-point">Superb</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-5 tour-item">
+                    <div class="tour__img">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/tour-featured-img-18.jpg" alt="Snow Surfing">
+                    </div>
+                    <div class="tour__inner-img-text">
+                        <div class="tour__inner-img-text--calendar">
+                            <i class='tour__inner-img-text--calendar-icon bx bx-calendar-alt'></i>
+                            <span class='tour__inner-img-text--calendar-text'>1</span>
+                        </div>
+                        <div class="tour__inner-img-text--user">
+                            <i class='tour__inner-img-text--user-icon bx bx-user' ></i>
+                            <span class='tour__inner-img-text--user-text'>13+</span>
+                        </div>
+                        <div class="tour__inner-img-text--location">
+                            <i class='tour__inner-img-text--location-icon bx bx-map' ></i>
+                            <span class='tour__inner-img-text--location-text'>Skiing</span>
+                        </div>
+                    </div>
+                    <div class="tour-item__content">
+                        <h3 class="tour-item__content-title">Snow Surfing</h3>
+                        <p class="tour-item__content-sub-title">Lorem ipsum dolor sit amet consectetur adipisicing el...</p>
+                        <div class="tour-item__content-rating">
+                            <span class="tour-item__content-price">$1600</span>
+                            <div class="tour-item__content-rating-point">
+                                <i class='rating-point bx bxs-star' ></i>
+                                <span class="rating-point">6.3</span>
+                                <span class="rating-point">Good</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-5 tour-item">
+                    <div class="tour__img">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/tour-featured-img-15.jpg" alt="Winter Action">
+                    </div>
+                    <div class="tour__inner-img-text">
+                        <div class="tour__inner-img-text--calendar">
+                            <i class='tour__inner-img-text--calendar-icon bx bx-calendar-alt'></i>
+                            <span class='tour__inner-img-text--calendar-text'>1</span>
+                        </div>
+                        <div class="tour__inner-img-text--user">
+                            <i class='tour__inner-img-text--user-icon bx bx-user' ></i>
+                            <span class='tour__inner-img-text--user-text'>13+</span>
+                        </div>
+                        <div class="tour__inner-img-text--location">
+                            <i class='tour__inner-img-text--location-icon bx bx-map' ></i>
+                            <span class='tour__inner-img-text--location-text'>Skiing</span>
+                        </div>
+                    </div>
+                    <div class="tour-item__content">
+                        <h3 class="tour-item__content-title">Action Winter</h3>
+                        <p class="tour-item__content-sub-title">Lorem ipsum dolor sit amet consectetur adipisicing el...</p>
+                        <div class="tour-item__content-rating">
+                            <span class="tour-item__content-price">$1500</span>
+                            <div class="tour-item__content-rating-point">
+                                <i class='rating-point bx bxs-star' ></i>
+                                <span class="rating-point">7.7</span>
+                                <span class="rating-point">Superb</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tour-item-current-pages">
+                <i class='current-pages-icon current-tour bx bx-circle'></i>
+                <i class='current-pages-icon bx bx-circle'></i>
+            </div>
+        </div>
+        <!-- body -->
+        <div class="grid">
+            <!-- try-now -->
+            <div class="try-now alignment-center">
+                <p class="try-now__title">Try Now</p>
+                <h1 class="try-now__heading">Winter Sports</h1>
+                <div class="try-now__video">
+                    <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/h-skiing-video-1.jpg" alt="Skiing Video" class="try-now-video__img">
+                    <span><i class='try-now-video__icon-play bx bx-play'></i></span>
+                </div>
+                <p class="try-now-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis sit amet, consectetuer adipiscing elit Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit ame</p>
+                <a href="/" class="try-now__view-more">VIEW MORE</a>
+            </div>
+
+            <!-- Top review -->
+            <div class="container-top-review alignment-center">
+                <div class="grid-row">
+                    <div class="grid-3"></div>
+                    <div class="grid-3">
+                        <div class="top-review__heading">Top Reviews</div>
+                        <div class="top-review__sub-heading">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum</div>
+                    </div>
+                    <div class="grid-3"></div>
+                </div>
+                <div class="grid-row container-item-reviewer">
+                    <div class="grid-3 reviewer-wrap">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-2.png" alt="avarta reviewer" class="reviewer-wrap__avarta">
+                        <div class="reviewer-wrap__info">
+                            <div class="reviewer-info__title">Barcelona</div>
+                            <div class="reviewer-info__rating">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                            </div>
+                            <div class="reviewer-info__feeling">Fa etor eviuas lwqedit tas, vut et nihc egam yubulas. Ei euvy </div>
+                            <div class="reviewer-info__name">James Fisher</div>
+                        </div>
+                    </div>
+                    <div class="grid-3 reviewer-wrap">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-6.png" alt="avarta reviewer" class="reviewer-wrap__avarta">
+                        <div class="reviewer-wrap__info">
+                            <div class="reviewer-info__title">Madrid</div>
+                            <div class="reviewer-info__rating">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                            </div>
+                            <div class="reviewer-info__feeling">Fa etor eviuas lwqedit tas, vut et nihc egam yubulas. Ei euvy </div>
+                            <div class="reviewer-info__name">Carl Moore</div>
+                        </div>
+                    </div>
+                    <div class="grid-3 reviewer-wrap">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-5.png" alt="avarta reviewer" class="reviewer-wrap__avarta">
+                        <div class="reviewer-wrap__info">
+                            <div class="reviewer-info__title">Taragona</div>
+                            <div class="reviewer-info__rating">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                            </div>
+                            <div class="reviewer-info__feeling">Fa etor eviuas lwqedit tas, vut et nihc egam yubulas. Ei euvy </div>
+                            <div class="reviewer-info__name">Carol Silva </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-row last-row-top-review">
+                    <div class="grid-3"></div>
+                    <div class="grid-3 wrap-icon-current-page-top-review">
+                        <i class='icon-current-page-top-review current-page-top-review bx bx-circle'></i>
+                        <i class='icon-current-page-top-review bx bx-circle'></i>
+                        <i class='icon-current-page-top-review bx bx-circle'></i>
+                    </div>
+                    <div class="grid-3"></div>
+                </div>
+            </div>
+
+            <!-- winter holiday -->
+            <div class="container-winter-holiday alignment-center">
+                <div class="grid-row">
+                    <div class="grid-3"></div>
+                    <div class="grid-3">
+                        <h3 class="title">Enjoy Your</h3>
+                        <h1 class="heading">Winter Holiday</h1>
+                        <p class="sub-heading">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor lorem ipsum.</p>
+                    </div>
+                    <div class="grid-3"></div>
+                </div>
+                <div class="grid-row winter-holiday__item-wrap">
+                    <div class="grid-4">
+                        <img width="76" height="78" src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/h1-custom-icon-img-1.png"  sizes="(max-width: 76px) 100vw, 76px" class="winter-holiday__item-img">
+                        <h4 class="winter-holiday__item-heading">Restaurants</h4>
+                        <p class="winter-holiday__item-sub-heading">Aenean commodo ligula eget dolor. Lorem ipsum</p>
+                    </div>
+                    <div class="grid-4">
+                        <img width="76" height="78" src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/h1-custom-icon-img-2.png"  sizes="(max-width: 76px) 100vw, 76px" class="winter-holiday__item-img">
+                        <h4 class="winter-holiday__item-heading">Sightseeing</h4>
+                        <p class="winter-holiday__item-sub-heading">Aenean commodo ligula eget dolor. Lorem ipsum</p>
+                    </div>
+                    <div class="grid-4">
+                        <img width="76" height="78" src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/h1-custom-icon-img-3.png"  sizes="(max-width: 76px) 100vw, 76px" class="winter-holiday__item-img">
+                        <h4 class="winter-holiday__item-heading">Shops & Boutiques</h4>
+                        <p class="winter-holiday__item-sub-heading">Aenean commodo ligula eget dolor. Lorem ipsum</p>
+                    </div>
+                    <div class="grid-4">
+                        <img width="76" height="78" src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/h1-custom-icon-img-4.png"  sizes="(max-width: 76px) 100vw, 76px" class="winter-holiday__item-img">
+                        <h4 class="winter-holiday__item-heading">Where to Stay</h4>
+                        <p class="winter-holiday__item-sub-heading">Aenean commodo ligula eget dolor. Lorem ipsum</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Enjoy your (participant team) -->
+            <div class="container-team-participant">
+                <div class="grid-row">
+                    <div class="grid-4 team-participant__people">
+                        <a href="/"><img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-7-1.jpg" alt="participant team" class="team-participant__img"></a>
+                        <div class="participant__info">
+                            <h2 class="participant__info-name">Bella Larson</h2>
+                            <p class="participant__info-feeling">Deq des sut perspi ciatis ynde oninis iste matus error sit bolu ptato dolor</p>
+                            <div class="participant__info-social">
+                                <a href="/"><i class='bx bxl-twitter'></i></a>
+                                <a href="/"><i class='bx bxl-pinterest' ></i></a>
+                                <a href="/"><i class='bx bxl-facebook-circle' ></i></a>
+                                <a href="/"><i class='bx bxl-instagram' ></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-4 team-participant__people">
+                        <a href="/"><img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-8-1.jpg" alt="participant team" class="team-participant__img"></a>
+                        <div class="participant__info">
+                            <h2 class="participant__info-name">Jack Burton</h2>
+                            <p class="participant__info-feeling">Deq des sut perspi ciatis ynde oninis iste matus error sit bolu ptato dolor</p>
+                            <div class="participant__info-social">
+                                <a href="/"><i class='bx bxl-twitter'></i></a>
+                                <a href="/"><i class='bx bxl-pinterest' ></i></a>
+                                <a href="/"><i class='bx bxl-facebook-circle' ></i></a>
+                                <a href="/"><i class='bx bxl-instagram' ></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-4 team-participant__people">
+                        <a href="/"><img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-9.jpg" alt="participant team" class="team-participant__img"></a>
+                        <div class="participant__info">
+                            <h2 class="participant__info-name">Micheal West</h2>
+                            <p class="participant__info-feeling">Deq des sut perspi ciatis ynde oninis iste matus error sit bolu ptato dolor</p>
+                            <div class="participant__info-social">
+                                <a href="/"><i class='bx bxl-twitter'></i></a>
+                                <a href="/"><i class='bx bxl-pinterest' ></i></a>
+                                <a href="/"><i class='bx bxl-facebook-circle' ></i></a>
+                                <a href="/"><i class='bx bxl-instagram' ></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-4 team-participant__people">
+                        <a href="/"><img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-6-1.jpg" alt="participant team" class="team-participant__img"></a>
+                        <div class="participant__info">
+                            <h2 class="participant__info-name">Joe Avery</h2>
+                            <p class="participant__info-feeling">Deq des sut perspi ciatis ynde oninis iste matus error sit bolu ptato dolor</p>
+                            <div class="participant__info-social">
+                                <a href="/"><i class='bx bxl-twitter'></i></a>
+                                <a href="/"><i class='bx bxl-pinterest' ></i></a>
+                                <a href="/"><i class='bx bxl-facebook-circle' ></i></a>
+                                <a href="/"><i class='bx bxl-instagram' ></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-row container-access-time">
+                    <div class="access-time-wrap-60">
+                        <div class="access-time">
+                            <div class="access-time-number">452</div>
+                            <div class="access-time-label">Tourists</div>
+                        </div>
+                        <div class="access-time">
+                            <div class="access-time-number">120</div>
+                            <div class="access-time-label">Years</div>
+                        </div>
+                        <div class="access-time">
+                            <div class="access-time-number">283</div>
+                            <div class="access-time-label">Cottages</div>
+                        </div>
+                        <div class="access-time">
+                            <div class="access-time-number">197</div>
+                            <div class="access-time-label">Restaurants</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Choose your resort-->
+            <div class="container-choose-resort alignment-center">
+                <div class="grid-row">
+                    <div class="grid-3"></div>
+                    <div class="grid-3">
+                        <h3 class="title">Choose Your</h3>
+                        <h1 class="heading">Winter Resort</h1>
+                        <p class="sub-heading">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor lorem ipsum.</p>
+                    </div>
+                    <div class="grid-3"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="w-1300 resort-wrap">
+                        <div class="grid-3 resort-item">
+                            <a href="/" class="resort-item__link">
+                                <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/destinations-featured-img-8-1.jpg" alt="resort" class="resort-item__img">
+                                <h3 class="resort-item__name">Slovenia</h3>
+                            </a>
+                        </div>
+                        <div class="grid-3 resort-item">
+                            <a href="/" class="resort-item__link">
+                                <i class='resort-item__representative-icon bx bxs-star' ></i>
+                                <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/destinations-featured-img-9-1.jpg" alt="resort" class="resort-item__img">
+                                <h3 class="resort-item__name">France</h3>
+                            </a>
+                        </div>
+                        <div class="grid-3 resort-item">
+                            <a href="/" class="resort-item__link">
+                                <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/destinations-featured-img-10-1.jpg" alt="resort" class="resort-item__img">
+                                <h3 class="resort-item__name">Switjerland</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="grid footer_container">
+            <div class="grid-row">
+                <div class="w-1700 footer-item-wrap">
+                    <div class="grid-4 footer-item">
+                        <a href="#"><img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/logo-footer.png" alt="Logo" class="footer_logo"></a>
+                        <div class="footer_slogan">Lorem ipsum dolor sit ametco nsec te tuer adipiscing elitae</div>
+                        <ul class="footer_contact-wrap">
+                            <li class="footer_contact">
+                                <a href="mailto:setsail@qode.com">
+                                    <i class='footer_contact-icon bx bx-mail-send'></i>
+                                    setsail@qode.com
+                                 </a>
+                            </li>
+                            <li class="footer_contact">
+                                <a href="tel:15628675309">
+                                    <i class='bx bxs-phone' ></i>
+                                    1 562 867 5309
+                                </a>
+                            </li>
+                            <li class="footer_contact">
+                                <a href="/">
+                                    <i class=' bx bx-map' ></i>
+                                    Broadway & Morris St, New York
+                                </a>
+                            </li>
+                        </ul class="footer_contact-wrap">
+                    </div>
+                    <div class="grid-4 footer-item">
+                        <div class="footer-item_heading">
+                            Our Recent Posts
+                        </div>
+                        <div class="footer-item_content">
+                            <a href="/">
+                                <p class="footer-item_content-location">Visit Thailand, Bali and China</p>
+                            </a>
+                            <a href="/">
+                                <h4 class="footer-item_content-time">September 7, 2016</h4>
+                            </a>
+                        </div>
+                        <div class="footer-item_content">
+                            <a href="/">
+                                <p class="footer-item_content-location">The Sound Of Our Jungle</p>
+                            </a>
+                            <a href="/">
+                                <h4 class="footer-item_content-time">September 7, 2016</h4>
+                            </a>
+                        </div>
+                        <div class="footer-item_content">
+                            <a href="/">
+                                <p class="footer-item_content-location">New Year, New Resolutions!</p>
+                            </a>
+                            <a href="/">
+                                <h4 class="footer-item_content-time">September 7, 2016</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="grid-4 footer-item">
+                        <div class="footer-item_heading">
+                            Subscribe to our Newsletter
+                        </div>
+                        <div class="footer-item_content">
+                            <p class="footer-item-sub-heading">Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho</p>
+                        </div>
+                        <form class="footer-item_content">
+                           <div class="form-group">
+                               <span class="label-input"><i class='label-input-icon bx bx-user' ></i></span>
+                               <input type="text" placeholder="Name" id="name" class="name">
+                           </div>
+                           <div class="form-group">
+                               <span class="label-input"><i class='label-input-icon bx bx-mail-send' ></i></span>
+                               <input type="email" placeholder="Email" id="email" class="email">
+                           </div>
+                        </form>
+                        <form class="footer-item_content">
+                            <button type="submit" class="subscribe" id="subscribe">SUBSCRIBE</button>
+                        </form>
+                    </div>
+                    <div class="grid-4 footer-item">
+                        <div class="footer-item_heading">
+                            Our Instagram
+                        </div>
+                        <div class="footer-item_content">
+                            <p class="footer-item-sub-heading">Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho</p>
+                        </div>
+                        <div class="footer-item_content">
+                           <div class="footer-item_content-block-img">
+                               <a href="/"><img src="https://scontent-fml2-1.cdninstagram.com/v/t51.2885-15/40550729_1902988519791897_8155378118322146980_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=ihZD9gI5F-cAX9T09Kg&_nc_ht=scontent-fml2-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=f65013842ad6e9536f47d8a18a1e1d7d&oe=61A563D2" alt=""class="footer-item_content-img"></a>
+                               <a href="/"><img src="https://scontent-fml2-1.cdninstagram.com/v/t51.2885-15/40481446_312794325966573_7238021377612713413_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=nRCqKYhFMWIAX_Rmpgi&_nc_ht=scontent-fml2-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=1a0846e5ced66e0b0d2afa387018ba99&oe=61A53EFA" alt=""class="footer-item_content-img"></a>
+                               <a href="/"><img src="https://scontent-fml2-1.cdninstagram.com/v/t51.2885-15/41087687_720569758279116_5219986637256948209_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=YIQo181xV5MAX_RmxTB&_nc_ht=scontent-fml2-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=37c30ff17ec4b9f892155eba717cadf2&oe=61A4FE1F" alt=""class="footer-item_content-img"></a>
+                               <a href="/"><img src="https://scontent-fml2-1.cdninstagram.com/v/t51.2885-15/39948730_433290073863227_8438102480037573677_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=uvZngbN_XcIAX_t_P2Y&_nc_ht=scontent-fml2-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=2bec7fcaba95605cc3fc2b7858fcf725&oe=61A53F3B" alt=""class="footer-item_content-img"></a>
+                               <a href="/"><img src="https://scontent-fml2-1.cdninstagram.com/v/t51.2885-15/40419870_296084594511455_8682518320629895026_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=5Y9zJ9DuBFUAX8OMvPB&_nc_ht=scontent-fml2-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=247e33feaa74ee56471744526ef6cb76&oe=61A4DF5E" alt=""class="footer-item_content-img"></a>
+                           </div>
+                        </div>
+                        <div class="footer-item_content">
+                            <div class="footer-item_content-block-img">
+                                <a href="/"><img src="https://scontent-fml2-1.cdninstagram.com/v/t51.2885-15/40419870_296084594511455_8682518320629895026_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=5Y9zJ9DuBFUAX8OMvPB&_nc_ht=scontent-fml2-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=247e33feaa74ee56471744526ef6cb76&oe=61A4DF5E" alt=""class="footer-item_content-img"></a>
+                                <a href="/"><img src="https://scontent-fml2-1.cdninstagram.com/v/t51.2885-15/40481446_312794325966573_7238021377612713413_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=nRCqKYhFMWIAX_Rmpgi&_nc_ht=scontent-fml2-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=1a0846e5ced66e0b0d2afa387018ba99&oe=61A53EFA" alt=""class="footer-item_content-img"></a>
+                                <a href="/"><img src="https://scontent-fml2-1.cdninstagram.com/v/t51.2885-15/39948730_433290073863227_8438102480037573677_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=uvZngbN_XcIAX_t_P2Y&_nc_ht=scontent-fml2-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=2bec7fcaba95605cc3fc2b7858fcf725&oe=61A53F3B" alt=""class="footer-item_content-img"></a>
+                                <a href="/"><img src="https://scontent-fml2-1.cdninstagram.com/v/t51.2885-15/40550729_1902988519791897_8155378118322146980_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=ihZD9gI5F-cAX9T09Kg&_nc_ht=scontent-fml2-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=f65013842ad6e9536f47d8a18a1e1d7d&oe=61A563D2" alt=""class="footer-item_content-img"></a>
+                                <a href="/"><img src="https://scontent-fml2-1.cdninstagram.com/v/t51.2885-15/40431710_258408881476133_5549904701930696493_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=YMwX7-HrS5sAX93SBvh&_nc_ht=scontent-fml2-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=33d2ebf6333822f33e41c7b37d24a919&oe=61A4CFBF" alt=""class="footer-item_content-img"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_powered">
+                    Powered by @ <a href="/">Qode Interactive 2018</a> 
+                </div>
+            </div>
+        </div>
+        <!-- fixed right -->
+        <div id="fixed-right" >
+            <div class="fixed-right-wrap-icon">
+                <div href="/" class="related">
+                    <i class='related-icon icon-home bx bxs-doughnut-chart'></i>
+                    <i class='related-icon icon-back bx bx-right-arrow-alt'></i>
+                    <span class="related-title">RELATED</span>
+                </div>
+                <a href="/" class="buy-now">
+                    <i class='buy-now-icon bx bxs-cart' ></i>
+                    <span class="buy-now-title">RELATED</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/header.js"></script>
+    <script src="./assets/item.js"></script>
+</body>
+</html>
